@@ -16,7 +16,11 @@ When looking at the coding for these scripts, it was initially set up to train t
 Lastly, the Deep_Learning_Two_To_One_Model_GITHUB and User_Audio_Transform_FULL_ONLY_GITHUB scripts are set up to run on TensorFlow-GPU (or other environment variants with different names, such as tf-gpu). This part will require changing in the import statements to what you have installed. If using CPU TensorFlow (regular TensorFlow), change the with statement in the Deep_Learning_Two_To_One_Model_GITHUB script: <br><br>
     with tf.device('/GPU:0') ----> with tf.device('/CPU:0')<br><br><br>
     
-For more information, see PDF.
+Hardware Requirements:<br>
+- 16+ GB of RAM<br>
+- At least 100 GB of Hard Drive Storage (1+ TB if wanting to train all speakers available in all datasets)<br><br><br>
+    
+For more information, see Thesis.
 
 
 <br><br><br> Version 1.0
