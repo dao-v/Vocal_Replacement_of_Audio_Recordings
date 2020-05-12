@@ -19,6 +19,7 @@ Lastly, the Deep_Learning_Two_To_One_Model_GITHUB and User_Audio_Transform_FULL_
 Hardware Requirements:<br>
 - 16+ GB of RAM<br>
 - At least 100 GB of Hard Drive Storage (1+ TB if wanting to train all speakers available in all datasets)<br><br><br>
+- GPU and TensorFlow-GPU highly recommended
     
 For more information, see Thesis.
 
